@@ -2,28 +2,37 @@
 
 This repository is a fork of the spring-guides/gs-rest-service project, forked in 2016. The primary purpose of this fork is to serve as a historical baseline for research purposes:
 
-**Why a Fork?**
+**Why this Fork?**
 
-Preservation of Historical Context: Git history alone can sometimes be overwhelming. Maintaining this fork at the 2016 state creates a clear marker in time.
-Educational Resource: Seeing how the code evolved between 2016 and today (and potentially beyond) can be invaluable for anyone learning about Spring Boot, microservice design, or best practices in REST service development.
-Isolation for Experiments: We can safely experiment in this fork without affecting the main repository or confusing contributors to the official guide.
+**Preservation of Historical Context**: Git history alone can sometimes be overwhelming. Maintaining this fork at the 2016 state creates a clear marker in time.Seeing how the code evolved between 2016 and today (and potentially beyond) can be invaluable for a beginner learning about Spring Boot, microservice design, or best practices in REST service development.
+
+**Isolation for Experiments**: We can safely experiment in this fork without affecting the main repository or confusing contributors to the official guide.
 
 **How to Use This Fork**
 
 Compare With Upstream: Use Git’s comparison tools (or GitHub’s compare functionality) to see how the official guide has evolved since 2016.
+
 Check Out Experimental Branches: Look for branches labeled experiment/* or feature/* for additional context on how new ideas or library updates can be integrated into the original 2016 code.
+
 Pull Requests & Merges: If we incorporate new changes from upstream, you can follow the merge commits to trace the exact points in time where newer official features or fixes were included.
 
 ---
 tags: [rest]
+
 projects: [spring-framework]
 ---
 :spring_version: current
+
 :toc:
+
 :project_id: gs-rest-service
+
 :spring_version: current
+
 :spring_boot_version: 1.4.1.RELEASE
+
 :icons: font
+
 :source-highlighter: prettify
 
 This guide walks you through the process of creating a "hello world" link:/understanding/REST[RESTful web service] with Spring.
