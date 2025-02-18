@@ -1,19 +1,22 @@
-About This Fork
+**About This Fork**
+
 This repository is a fork of the spring-guides/gs-rest-service project, forked in 2016. The primary purpose of this fork is to serve as a historical baseline for research purposes:
 
-Why a Fork?
+**Why a Fork?**
+
 Preservation of Historical Context: Git history alone can sometimes be overwhelming. Maintaining this fork at the 2016 state creates a clear marker in time.
 Educational Resource: Seeing how the code evolved between 2016 and today (and potentially beyond) can be invaluable for anyone learning about Spring Boot, microservice design, or best practices in REST service development.
 Isolation for Experiments: We can safely experiment in this fork without affecting the main repository or confusing contributors to the official guide.
 
-How to Use This Fork
+**How to Use This Fork**
+
 Compare With Upstream: Use Git’s comparison tools (or GitHub’s compare functionality) to see how the official guide has evolved since 2016.
 Check Out Experimental Branches: Look for branches labeled experiment/* or feature/* for additional context on how new ideas or library updates can be integrated into the original 2016 code.
 Pull Requests & Merges: If we incorporate new changes from upstream, you can follow the merge commits to trace the exact points in time where newer official features or fixes were included.
+
 ---
 tags: [rest]
 projects: [spring-framework]
-experimental: Try the code inside your browser with -> http://beta.codenvy.com/f?id=9fq0busbm3tz7i8c
 ---
 :spring_version: current
 :toc:
